@@ -1,0 +1,5 @@
+
+// use mern_prj
+
+
+db.users.deleteOne( { username: "christoph.berger@live.at" } );

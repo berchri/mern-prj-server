@@ -1,0 +1,43 @@
+{
+    "name": "mern-prj-cb",
+    "version": "1.0.0",
+    "description": "Abschlussprojekt WIFI Fullstack JS Developer",
+    "main": "index.js",
+    "scripts": {
+        "start": "node -r dotenv/config server_pp",
+        "dev": "nodemon -r dotenv/config server_pp",
+        "msal": "node -r dotenv/config server_msal",
+        "pp": "nodemon -r dotenv/config server_pp"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://DigitaleUnternehmensEntwicklung@dev.azure.com/DigitaleUnternehmensEntwicklung/mern-prj-cb/_git/mern-prj-cb"
+    },
+    "author": "Christoph Berger",
+    "license": "ISC",
+    "dependencies": {
+        "@azure/msal-node": "^1.8.0",
+        "bcryptjs": "^2.4.3",
+        "bootstrap": "^5.1.3",
+        "connect-mongo": "^4.6.0",
+        "express": "^4.17.3",
+        "express-handlebars": "^6.0.5",
+        "express-session": "^1.17.2",
+        "mongoose": "^6.2.10",
+        "nodemailer": "^6.7.4",
+        "passport": "^0.5.2",
+        "passport-local": "^1.0.0",
+        "passport-microsoft": "^1.0.0",
+        "validator": "^13.7.0"
+    },
+    "devDependencies": {
+        "dotenv": "^16.0.0",
+        "nodemon": "^2.0.15"
+    },
+    "nodemonConfig": {
+        "ignore": [
+            "data/*",
+            "node_modules/*"
+        ]
+    }
+}

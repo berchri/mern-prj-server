@@ -1,0 +1,6 @@
+Thumbs.db
+__MACOSX
+.DStore
+node_modules
+_gitignore
+# .env

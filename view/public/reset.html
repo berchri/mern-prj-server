@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Reset your Password</h1>
+    <p>Please choose a new Password.</p>
+    <form method="post" action="/user/reset-password">
+        <label for="password">Neues Passwort</label>
+        <input type="password" name="password" id="password">
+        <label for="reppass">Passwort wiederholen</label>
+        <input type="password" name="repeat-password" id="reppass">
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
